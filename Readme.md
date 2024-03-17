@@ -23,7 +23,8 @@ To get started with the Notion clone, follow these steps:
 - EdgeStore for EDGE_STORE_ACCESS_KEY
  
 ```js
-  # Deployment used by `npx convex dev`
+# Deployment used by `npx convex dev`
+
 CONVEX_DEPLOYMENT=
 NEXT_PUBLIC_CONVEX_URL=
 
@@ -36,6 +37,7 @@ EDGE_STORE_SECRET_KEY=
 
 
 1. **Run the Application**: Start the development server to run the application locally.
+   
    Front-end:
    
    ```
@@ -43,7 +45,7 @@ EDGE_STORE_SECRET_KEY=
    ```
    Back-end:
    
- ```
+   ```
    npx convex dev
    ```
 2. **Access the Application**: Once the server is running, you can access the Notion clone by visiting `http://localhost:3000` in your web browser.
