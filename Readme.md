@@ -2,6 +2,9 @@
 
 This is a Notion clone, a collaborative workspace and note-taking application designed to help individuals and teams organize their tasks, projects, and ideas effectively.
 
+# Output
+<img width="800" height="500" alt="Screenshot 2024-03-17 at 11 45 20 PM" src="https://github.com/shresthacodes/Notion-Clone/assets/138806766/f0f6fd07-f0d3-4ed1-a308-4913b87b78bd">
+
 ## Getting Started
 
 To get started with the Notion clone, follow these steps:
@@ -18,21 +21,25 @@ To get started with the Notion clone, follow these steps:
    ```
 
 3. **Generate Keys**: 
-***Using:***
+
 - Clerk.com for CLERK_SECRET_KEY
+  ```
+  CONVEX_DEPLOYMENT=
+   NEXT_PUBLIC_CONVEX_URL=
+  ```
 - EdgeStore for EDGE_STORE_ACCESS_KEY
+  
+   ```
+  EDGE_STORE_ACCESS_KEY=
+  EDGE_STORE_SECRET_KEY=
+  ```
  
 ```js
 # Deployment used by `npx convex dev`
 
-CONVEX_DEPLOYMENT=
-NEXT_PUBLIC_CONVEX_URL=
-
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
 
-EDGE_STORE_ACCESS_KEY=
-EDGE_STORE_SECRET_KEY=
 ```
 
 
