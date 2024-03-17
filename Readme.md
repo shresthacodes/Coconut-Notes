@@ -32,7 +32,7 @@ To get started with the Notion clone, follow these steps:
 - Clerk.com for CLERK_SECRET_KEY
 - EdgeStore for EDGE_STORE_ACCESS_KEY
  
-   ```js
+```js
   # Deployment used by `npx convex dev`
 CONVEX_DEPLOYMENT=
 NEXT_PUBLIC_CONVEX_URL=
