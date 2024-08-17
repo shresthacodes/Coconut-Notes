@@ -57,4 +57,4 @@ CLERK_SECRET_KEY=
    ```
 2. **Access the Application**: Once the server is running, you can access the Notion clone by visiting `http://localhost:3000` in your web browser.
 
-Tutorial followed from : (https://www.youtube.com/watch?v=0OaDyjB9Ib8&t=27288s)
+
